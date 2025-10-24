@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+string m1,m2,m3;
+float A1,A2,A3 ;
+float Average;
+
+    cout << "Enter first month name:"<< endl;
+    cin >> m1 ;
+    cout << "average rainfall month 1:" << endl ;
+    cin >> A1 ;
+    cout<< "Enter second month name:"<< endl;
+    cin >> m2 ;
+    cout<< "average rainfall month 2:" << endl ;
+    cin >> A2 ;
+    cout << "Enter third month name:"<< endl;
+    cin >> m3;
+    cout<< "average rainfall month 3:"<< endl;
+    cin >> A3;
+    cout << endl ;
+
+
+    Average =((A1 + A2 + A3)/ 3);
+
+cout << "Average rainfall for three months is:"<< endl;
+    cout << Average <<endl;
+
+
+    cout << endl << endl;
+
+
+
+    return 0;
+}
