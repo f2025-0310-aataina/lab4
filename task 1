@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+cout << "Name:\tAataina Imran\n";
+    cout<< "Department:\tSCIT\n";
+    cout<< "Favourite quote: \t\"Good Things Take Time.\"n";
+    
+
+
+
+    return 0;
+}
+
