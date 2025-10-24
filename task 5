@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float length1, length2,width1, width2;
+    float area1, area2;
+    cout<<"Enter length of rectangle1: ";
+    cin>>length1;
+    cout<<"Enter width of rectangle1: ";
+    cin>>width1;
+    cout<<"Enter length of rectangle2: ";
+    cin>>length2;
+    cout<<"Enter width of rectangle2: ";
+    cin>>width2;
+    area1 = length1 * width1;
+    area2 = length2 * width2;
+    cout<<"Area of rectangle1: "<<area1<<endl;
+    cout<<"Area of rectangle2: "<<area2<<endl;
+    if (area1 == area2) {
+        cout<<"Area of rectangle1==area2"<<endl;
+    } else { cout<<"rectangle 1 is not equal to rectangle 2"<<endl;
+    }
+    return 0;
+
+
+}
