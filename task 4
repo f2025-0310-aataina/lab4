@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int birthyear,age;
+    int currentyear = 2025;
+    cout << "Enter your birth year: ";
+    cin >> birthyear;
+    age = currentyear - birthyear;
+    if (age>= 18 && age<=28)
+        cout<<"You are eligible to apply"<<endl;
+    else
+        cout<<"You are not eligible to apply"<<endl;
+    return 0;
+    
+}
