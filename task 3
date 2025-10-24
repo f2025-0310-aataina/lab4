@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    const double pi = 3.141592653589793;
+    float height;
+    float radius;
+    float area;
+    float volume;
+    cout<<"enter the radius:";
+    cin>>radius;
+    cout<<"enter the height of the cylinder:";
+    cin>>height;
+    area =pi*radius*height +2*pi*radius*radius;
+    volume = area*volume;
+    cout<<"Area of the cylinder is:"<<area<<endl;
+    cout<<"Volume of the cylinder is:"<<volume<<endl;
+    return 0;
+
+}
